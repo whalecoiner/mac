@@ -3,7 +3,9 @@
   hosts: localhost
   become: false
   vars:
-    brew_cask_packages: 
+    mas_installed_app_ids:
+      - 497799835 # Xcode
+    homebrew_cask_apps: 
       - airflow
       - balenaetcher
       - docker
@@ -19,7 +21,7 @@
       - telegram-desktop
       - visual-studio-code
       - vlc
-    brew_packages:
+    homebrew_installed_packages:
       - ffmpeg
       - flux
       - get_iplayer
@@ -39,37 +41,12 @@
       - youtube-dl
       - yq
       - mas
-  pre_tasks:
-    - name: Ensuring Homebrew Is Installed
-      stat:
-        path: /usr/local/bin/brew
-      register: homebrew_check
-
-  tasks:
-    - name: Updating Homebrew
-      community.general.homebrew:
-        update_homebrew: true
-      when: homebrew_check.stat.exists
-
-    # - name: Upgrading Homebrew Packages
-    #   community.general.homebrew:
-    #     upgrade_all: "{{ upgrade_homebrew_packages }}"
-    #   register: result
-    #   until: result is successful
-    #   when: homebrew_check.stat.exists
-
-    - name: Installing Homebrew Casks
-      community.general.homebrew_cask:
-        name: "{{ brew_cask_packages }}"
-        state: present
-      register: result
-      until: result is successful
-      when: homebrew_check.stat.exists
-
-    - name: Installing Homebrew Packages
-      community.general.homebrew:
-        name: "{{ brew_packages }}"
-        state: present
-      register: result
-      until: result is successful
-      when: homebrew_check.stat.exists
+      - pv
+      - cowsay
+    configure_dock: true
+    dockitems_remove:
+      - Launchpad
+      - TV
+  roles:
+    - geerlingguy.mac.homebrew
+    - geerlingguy.mac.mas

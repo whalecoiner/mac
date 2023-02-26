@@ -1,24 +1,4 @@
 ---
 # https://www.jeffgeerling.com/blog/2020/ansible-best-practices-using-project-local-collections-and-roles
-roles:
-  - name: geerlingguy.nfs
-  - name: weareinteractive.environment
-  - name: geerlingguy.docker
-  - name: geerlingguy.nfs
-  - name: githubixx.harden-linux
-  - name: hifis.unattended_upgrades
-  - name: geerlingguy.ansible
-  - name: diodonfrost.terraform
-  - name: mrlesmithjr.netplan
-  - name: artis3n.tailscale
-  - name: xanmanning.k3s
-  - name: githubixx.ansible_role_wireguard
-
 collections:
-  - name: community.docker
-  - name: community.general
-  - name: ansible.netcommon
-  - name: serdigital64.core
-  - name: serdigital64.backup
-  - name: devsec.hardening
   - name: geerlingguy.mac
