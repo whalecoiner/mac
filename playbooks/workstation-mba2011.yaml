@@ -3,11 +3,14 @@
   hosts: localhost
   become: false
   vars:
-    mas_installed_app_ids:
-      - 497799835 # Xcode
+    mas_installed_apps:
+      - {id: 1287445660, name: "Agenda"}
+      - {id: 937984704, name: "Amphetamine"}
+      - {id: 1289583905, name: "Pixelmator Pro"}
+      - {id: 1591303229, name: "Vinegar - Tube Cleaner"}
+      - {id: 1352778147, name: "Bitwarden"}
     homebrew_cask_apps: 
       - airflow
-      - bitwarden
       - balenaetcher
       - docker
       - firefox
@@ -21,6 +24,7 @@
       - telegram-desktop
       - visual-studio-code
       - vlc
+      - obsidian
     homebrew_installed_packages:
       - ffmpeg
       - flux
