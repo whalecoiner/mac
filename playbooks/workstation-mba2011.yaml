@@ -7,6 +7,7 @@
       - 497799835 # Xcode
     homebrew_cask_apps: 
       - airflow
+      - bitwarden
       - balenaetcher
       - docker
       - firefox
