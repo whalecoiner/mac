@@ -12,10 +12,17 @@ xcode-select --install
 
 ### Install Ansible
 
-Run the following command to add Python 3 to your $PATH: 
+Run the following commands to temporarily add Python 3 to your `$PATH`:
+
 ```
 export PATH="$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:$PATH"
+```
+
+```
 sudo pip3 install --upgrade pip 
+```
+
+```
 pip3 install ansible
 ```
 
