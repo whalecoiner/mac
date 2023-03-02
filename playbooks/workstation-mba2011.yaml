@@ -64,9 +64,15 @@
       - Messages
       - System Preferences
     dockitems_persist:
+      - name: Mail
+        path: "/Applications/Mail.app/"
+        pos: 1
       - name: Firefox
         path: "/Applications/Firefox.app/"
         pos: 2
+      - name: iTerm2
+        path: "/Applications/iTerm 2.app/"
+        pos: 3
   roles:
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
