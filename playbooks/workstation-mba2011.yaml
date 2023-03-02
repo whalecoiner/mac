@@ -62,6 +62,10 @@
       - Photos
       - Messages
       - System Preferences
+    dockitems_persist:
+      - name: Firefox
+        path: "/Applications/Firefox.app/"
+        pos: 2
   roles:
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
