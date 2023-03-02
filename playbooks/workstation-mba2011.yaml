@@ -69,12 +69,15 @@
       - name: Mail
         path: "/Applications/Mail.app/"
         pos: 1
+      - name: Calendar
+        path: "/Applications/Calendar.app/"
+        pos: 2
       - name: Firefox
         path: "/Applications/Firefox.app/"
-        pos: 2
+        pos: 3
       - name: iTerm2
         path: "/Applications/iTerm.app/"
-        pos: 3
+        pos: 4
   roles:
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
