@@ -26,6 +26,7 @@
       - visual-studio-code
       - vlc
       - obsidian
+      - jellyfin-media-player
     homebrew_installed_packages:
       - ffmpeg
       - flux
