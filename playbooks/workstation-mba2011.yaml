@@ -51,6 +51,11 @@
     dockitems_remove:
       - Launchpad
       - TV
+      - Maps
+      - FaceTime
+      - Contacts
+      - Reminders
+      - Podcasts
   roles:
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
