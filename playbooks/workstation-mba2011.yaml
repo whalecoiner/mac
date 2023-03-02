@@ -27,6 +27,7 @@
       - vlc
       - obsidian
       - jellyfin-media-player
+      - transmission
     homebrew_installed_packages:
       - ffmpeg
       - flux
