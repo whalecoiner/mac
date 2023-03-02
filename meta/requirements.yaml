@@ -2,3 +2,4 @@
 # https://www.jeffgeerling.com/blog/2020/ansible-best-practices-using-project-local-collections-and-roles
 collections:
   - name: geerlingguy.mac
+  - name: geerlingguy.homebrew
