@@ -56,6 +56,12 @@
       - Contacts
       - Reminders
       - Podcasts
+      - App Store
+      - Music
+      - Notes
+      - Photos
+      - Messages
+      - System Preferences
   roles:
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
