@@ -12,12 +12,6 @@ xcode-select --install
 
 ### Install Homebrew and Ansible via setup script
 
-Run the following commands to temporarily add Python 3 to your `$PATH`:
-
-```
-export PATH="$HOME/Library/Python/3.9/bin:/opt/homebrew/bin:$PATH"
-```
-
 ```
 cd scripts/
 ./bootstrap-mac.sh
