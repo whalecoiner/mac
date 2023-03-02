@@ -23,7 +23,7 @@ cd scripts/
 ./bootstrap-mac.sh
 ```
 
-### Satisy any Ansible requirements
+### Satisfy Ansible requirements
 
 ```
 ansible-galaxy install -r meta/requirements.yaml
