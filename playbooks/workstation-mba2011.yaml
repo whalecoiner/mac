@@ -71,7 +71,7 @@
         path: "/Applications/Firefox.app/"
         pos: 2
       - name: iTerm2
-        path: "/Applications/iTerm 2.app/"
+        path: "/Applications/iTerm.app/"
         pos: 3
   roles:
     - geerlingguy.mac.homebrew
