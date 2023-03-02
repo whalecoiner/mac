@@ -10,7 +10,7 @@ The following steps will install dependencies and run the installation steps.
 xcode-select --install
 ```
 
-### Install Ansible
+### Install Homebrew and Ansible via setup script
 
 Run the following commands to temporarily add Python 3 to your `$PATH`:
 
