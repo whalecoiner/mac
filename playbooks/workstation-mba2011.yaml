@@ -11,6 +11,7 @@
       - {id: 1352778147, name: "Bitwarden"}
     homebrew_cask_apps: 
       - airflow
+      - iterm2
       - balenaetcher
       - docker
       - firefox
