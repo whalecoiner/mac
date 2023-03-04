@@ -39,6 +39,7 @@
       - macvim
       - mutt
       - neofetch
+      - terraform
       - transmission-cli
       - nmap
       - rsync
