@@ -75,7 +75,7 @@
       - name: Firefox
         path: "/Applications/Firefox.app/"
         pos: 3
-      - name: iTerm2
+      - name: iTerm
         path: "/Applications/iTerm.app/"
         pos: 4
   roles:
