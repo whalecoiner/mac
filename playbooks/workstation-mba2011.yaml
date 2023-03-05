@@ -40,6 +40,7 @@
       - mutt
       - neofetch
       - terraform
+      - cdrtools
       - transmission-cli
       - nmap
       - rsync
