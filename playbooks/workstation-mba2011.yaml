@@ -3,12 +3,16 @@
   hosts: localhost
   become: false
   vars:
+    homebrew_taps:
+      - homebrew/core
+      - homebrew/cask-fonts
     mas_installed_apps:
       - {id: 1287445660, name: "Agenda"}
       - {id: 937984704, name: "Amphetamine"}
       - {id: 1289583905, name: "Pixelmator Pro"}
       - {id: 1591303229, name: "Vinegar - Tube Cleaner"}
       - {id: 1352778147, name: "Bitwarden"}
+      - {id: 457622435, name: "Yoink"}
     homebrew_cask_apps: 
       - airflow
       - iterm2
@@ -28,6 +32,7 @@
       - obsidian
       - jellyfin-media-player
       - transmission
+      - font-hack-nerd-font
     homebrew_installed_packages:
       - ffmpeg
       - flux
