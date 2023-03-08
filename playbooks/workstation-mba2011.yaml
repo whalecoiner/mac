@@ -33,6 +33,7 @@
       - jellyfin-media-player
       - transmission
       - font-hack-nerd-font
+      - font-3270-nerd-font
     homebrew_installed_packages:
       - ffmpeg
       - flux
