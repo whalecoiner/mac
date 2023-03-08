@@ -58,6 +58,7 @@
       - mas
       - pv
       - cowsay
+      - starship
     configure_dock: true
     dockitems_remove:
       - Launchpad
