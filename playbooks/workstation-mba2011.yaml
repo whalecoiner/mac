@@ -1,8 +1,8 @@
 ---
 - name: Install MacOS Packages
   hosts: localhost
-  become: false
   vars:
+    configure_dotfiles: false
     homebrew_taps:
       - homebrew/core
       - homebrew/cask-fonts
@@ -13,6 +13,8 @@
       - {id: 1591303229, name: "Vinegar - Tube Cleaner"}
       - {id: 1352778147, name: "Bitwarden"}
       - {id: 457622435, name: "Yoink"}
+    pip_packages:
+      - mkdocs
     homebrew_cask_apps: 
       - airflow
       - iterm2
