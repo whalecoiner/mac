@@ -49,5 +49,5 @@ ansible-galaxy install -r meta/requirements.yaml
 ### Run the Ansible Playbook
 
 ```
-ansible-playbook playbooks/workstation-mba2011.yaml --ask-become-pass
+ansible-playbook playbooks/personal.yaml --ask-become-pass
 ```
