@@ -1,0 +1,90 @@
+---
+- name: Install MacOS Packages for work
+  hosts: localhost
+  vars:
+    configure_dotfiles: false
+    homebrew_taps:
+      - homebrew/core
+      - homebrew/cask-fonts
+    mas_installed_apps:
+      - {id: 1287445660, name: "Agenda"}
+      - {id: 937984704, name: "Amphetamine"}
+      - {id: 1289583905, name: "Pixelmator Pro"}
+      - {id: 1591303229, name: "Vinegar - Tube Cleaner"}
+      - {id: 1352778147, name: "Bitwarden"}
+      - {id: 457622435, name: "Yoink"}
+      - {id: 1502839586 , name: "Hand Mirror"}
+      - {id: 1091189122, name: "Bear"}
+      - {id: 147538714, name: "Tailscale"}
+      - {id: 775737590, name: "iA Writer"}
+    pip_packages:
+      - mkdocs
+    homebrew_cask_apps: 
+      - iterm2
+      - docker
+      - firefox
+      - google-chrome
+      - home-assistant
+      - imageoptim
+      - remarkable
+      - telegram-desktop
+      - visual-studio-code
+      - font-hack-nerd-font
+      - font-3270-nerd-font
+    homebrew_installed_packages:
+      - ffmpeg
+      - flux
+      - git
+      - helm
+      - jq
+      - kubectl
+      - macvim
+      - mutt
+      - neofetch
+      - terraform
+      - cdrtools
+      - nmap
+      - rsync
+      - sqlite
+      - watch
+      - wget
+      - yq
+      - mas
+      - pv
+      - cowsay
+      - starship
+    configure_dock: true
+    dockitems_remove:
+      - Launchpad
+      - TV
+      - Maps
+      - FaceTime
+      - Contacts
+      - Reminders
+      - Podcasts
+      - App Store
+      - Music
+      - Notes
+      - Photos
+      - Messages
+      - System Preferences
+    dockitems_persist:
+      - name: Mail
+        path: "/Applications/Mail.app/"
+        pos: 1
+      - name: Calendar
+        path: "/Applications/Calendar.app/"
+        pos: 2
+      - name: Outlook
+        path: "/Applications/Microsoft Outlook.app/"
+        pos: 3
+      - name: Firefox
+        path: "/Applications/Firefox.app/"
+        pos: 4
+      - name: iTerm
+        path: "/Applications/iTerm.app/"
+        pos: 5
+  roles:
+    - geerlingguy.mac.homebrew
+    - geerlingguy.mac.mas
+    - geerlingguy.mac.dock
