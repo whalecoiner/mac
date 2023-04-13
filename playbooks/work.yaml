@@ -85,6 +85,6 @@
         path: "/Applications/iTerm.app/"
         pos: 5
   roles:
-    - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
+    - geerlingguy.mac.homebrew
     - geerlingguy.mac.dock
