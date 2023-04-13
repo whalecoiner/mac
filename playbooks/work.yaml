@@ -2,6 +2,7 @@
 - name: Install MacOS Packages for work
   hosts: localhost
   vars:
+    homebrew_upgrade_all_packages: true
     configure_dotfiles: false
     homebrew_taps:
       - homebrew/core
