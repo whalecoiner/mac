@@ -59,6 +59,9 @@
       - TV
       - Maps
       - FaceTime
+      - Freeform
+      - Pages
+      - Safari
       - Contacts
       - Reminders
       - Podcasts
@@ -75,7 +78,7 @@
       - name: Calendar
         path: "/Applications/Calendar.app/"
         pos: 2
-      - name: Outlook
+      - name: Microsoft Outlook
         path: "/Applications/Microsoft Outlook.app/"
         pos: 3
       - name: Firefox
