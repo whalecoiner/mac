@@ -8,7 +8,6 @@
       - homebrew/core
       - homebrew/cask-fonts
     mas_installed_apps:
-      - {id: 1287445660, name: "Agenda"}
       - {id: 937984704, name: "Amphetamine"}
       - {id: 1289583905, name: "Pixelmator Pro"}
       - {id: 1591303229, name: "Vinegar - Tube Cleaner"}
