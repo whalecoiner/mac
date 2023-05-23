@@ -31,6 +31,7 @@
       - visual-studio-code
       - font-hack-nerd-font
       - font-3270-nerd-font
+      - authy
     homebrew_installed_packages:
       - ffmpeg
       - flux
