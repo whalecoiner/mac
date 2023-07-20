@@ -32,6 +32,7 @@
       - font-hack-nerd-font
       - font-3270-nerd-font
       - authy
+      - modern-csv
     homebrew_installed_packages:
       - ffmpeg
       - flux
