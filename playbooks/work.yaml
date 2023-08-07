@@ -5,7 +5,6 @@
     homebrew_upgrade_all_packages: true
     configure_dotfiles: false
     homebrew_taps:
-      - homebrew/core
       - homebrew/cask-fonts
     mas_installed_apps:
       - {id: 937984704, name: "Amphetamine"}

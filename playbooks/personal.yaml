@@ -4,7 +4,6 @@
   vars:
     configure_dotfiles: false
     homebrew_taps:
-      - homebrew/core
       - homebrew/cask-fonts
     mas_installed_apps:
       - {id: 1287445660, name: "Agenda"}
