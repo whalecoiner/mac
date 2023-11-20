@@ -39,6 +39,7 @@
       - font-hack-nerd-font
       - font-3270-nerd-font
       - authy
+      - orbstack
     homebrew_installed_packages:
       - ffmpeg
       - flux
@@ -59,7 +60,7 @@
       - sqlite
       - watch
       - wget
-      - youtube-dl
+      - yt-dlp
       - yq
       - mas
       - pv
@@ -73,6 +74,7 @@
       - FaceTime
       - Contacts
       - Reminders
+      - Freeform
       - Podcasts
       - App Store
       - Music
