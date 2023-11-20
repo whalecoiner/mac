@@ -51,6 +51,7 @@
       - macvim
       - mutt
       - neofetch
+      - nvm
       - terraform
       - cdrtools
       - transmission-cli
@@ -94,7 +95,6 @@
         path: "/Applications/iTerm.app/"
         pos: 4
   roles:
-    - geerlingguy.mac.homebrew
-    - geerlingguy.mac.mas
-    - geerlingguy.mac.dock
-    - nvm
+    - role: geerlingguy.mac.homebrew
+    - role: geerlingguy.mac.mas
+    - role: geerlingguy.mac.dock
