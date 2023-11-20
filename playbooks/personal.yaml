@@ -97,3 +97,4 @@
     - geerlingguy.mac.homebrew
     - geerlingguy.mac.mas
     - geerlingguy.mac.dock
+    - nvm
