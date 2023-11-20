@@ -13,7 +13,6 @@
       - {id: 1352778147, name: "Bitwarden"}
       - {id: 457622435, name: "Yoink"}
       - {id: 1502839586 , name: "Hand Mirror"}
-      - {id: 1091189122, name: "Bear"}
       - {id: 775737590, name: "iA Writer"}
     pip_packages:
       - mkdocs
